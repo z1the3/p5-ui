@@ -2,7 +2,7 @@
 
 react + vite + typescript
 
-# 支持格式规范和语法检测工具
+## 支持的格式规范和语法检测等工具
 * editorConfig
 * eslint
 * prettier
@@ -10,10 +10,11 @@ react + vite + typescript
 * lint-staged
 * husky
 * commitizen
+* changelog
 
-# 暂不考虑支持的
-仅在这里列举
+
+## 暂不考虑支持的
+在这里列举
 * tsc
 * commitlint
-* changelog
 * markdownlint
