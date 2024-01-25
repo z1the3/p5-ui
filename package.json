@@ -8,9 +8,7 @@
     "build": "tsc && vite build",
     "lint:eslint": "eslint --fix --ext .js,.ts,.tsx ./src",
     "lint:prettier": "prettier --write --loglevel warn \"packages/**/*.{js,ts,json,tsx,css,less,scss,stylus,html,md}\"",
-    "preview": "vite preview",
-    "pre-check": "pnpm run lint",
-    "lint": "lint-staged"
+    "preview": "vite preview"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
