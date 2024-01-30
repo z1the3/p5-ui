@@ -6,7 +6,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'next'
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
@@ -17,6 +18,10 @@ module.exports = {
   settings: {
     react: {
       version: 'detect'
+    },
+    next: {
+      rootDir: "packages/next-docs/"
     }
+
   }
 }
