@@ -1,10 +1,11 @@
 {
-  "name": "_",
+  "name": "p5-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:doc": "pnpm -F @p5-ui/docs run dev",
     "build": "tsc && vite build",
     "lint:eslint": "eslint --fix --ext .js,.ts,.tsx ./src",
     "lint:prettier": "prettier --write --loglevel warn \"packages/**/*.{js,ts,json,tsx,css,less,scss,stylus,html,md}\"",
