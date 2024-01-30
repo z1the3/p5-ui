@@ -20,7 +20,7 @@ module.exports = {
       version: 'detect'
     },
     next: {
-      rootDir: "packages/next-docs/"
+      rootDir: "packages/docs/"
     }
 
   }
