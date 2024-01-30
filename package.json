@@ -10,7 +10,7 @@
     "lint:eslint": "eslint --fix --ext .js,.ts,.tsx ./packages/**",
     "lint:prettier": "prettier --write --loglevel warn \"packages/**/*.{js,ts,json,tsx,css,less,scss,stylus,html,md}\"",
     "preview": "vite preview",
-    "commit": "lint-staged && git-cz",
+    "commit": "git-cz",
     "release": "standard-version",
     "release:alpha": "standard-version --prerelease alpha",
     "release:rc": "standard-version --prerelease rc",
